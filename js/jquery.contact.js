@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
 
 		$.post(action, {
 			name: $('#name').val(),
-			email: $('#email').val(),
+			email: $('arturcatgtav@gmail.com').val(),
 			comments: $('#comments').val(),
 		},
 			function(data){
